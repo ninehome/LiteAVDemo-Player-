@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.player"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml
+10
+11    <application android:theme="@style/AppTheme" >
+11-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:5:5-52:19
+11-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:5:18-49
+12        <activity
+12-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:6:9-8:57
+13            android:name="com.tencent.liteav.demo.player.demo.PlayerSettingActivity"
+13-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:8:13-55
+14            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+14-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:7:13-72
+15        <activity
+15-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:9:9-11:15
+16            android:name="com.tencent.liteav.demo.player.demo.VideoDownloadListActivity"
+16-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:9:19-65
+17            android:screenOrientation="portrait" />
+17-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:10:13-49
+18        <activity
+18-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:12:9-25:20
+19            android:name="com.tencent.liteav.demo.player.demo.SuperPlayerActivity"
+19-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:13:13-53
+20            android:configChanges="orientation|keyboardHidden|screenSize"
+20-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:14:13-74
+21            android:label="@string/superplayer_app_name"
+21-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:15:13-57
+22            android:launchMode="singleTask"
+22-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:16:13-44
+23            android:screenOrientation="portrait"
+23-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:17:13-49
+24            android:windowSoftInputMode="stateHidden" >
+24-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:18:13-54
+25            <intent-filter>
+25-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:19:13-24:29
+26                <action android:name="com.tencent.liteav.demo.play.action.float.click" />
+26-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:20:17-90
+26-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:20:25-87
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:21:17-69
+27-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:21:25-66
+28
+29                <category android:name="android.intent.category.DEFAULT" />
+29-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:23:17-76
+29-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:23:27-73
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.tencent.liteav.demo.player.demo.shortvideo.base.AbsBaseActivity" />
+32-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:26:9-74
+32-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:26:19-71
+33        <activity
+33-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:27:9-33:57
+34            android:name="com.tencent.liteav.demo.player.demo.shortvideo.view.ShortVideoActivity"
+34-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:28:13-68
+35            android:configChanges="orientation|keyboardHidden|screenSize"
+35-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:29:13-74
+36            android:launchMode="singleTask"
+36-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:30:13-44
+37            android:screenOrientation="portrait"
+37-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:31:13-49
+38            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+38-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:32:13-69
+39            android:windowSoftInputMode="stateHidden" />
+39-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:33:13-54
+40        <activity
+40-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:34:9-36:52
+41            android:name="com.tencent.liteav.demo.player.demo.QRCodeScanActivity"
+41-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:35:13-52
+42            android:screenOrientation="portrait" />
+42-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:36:13-49
+43        <activity
+43-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:37:9-39:54
+44            android:name="com.tencent.liteav.demo.player.demo.VodPlayerActivity"
+44-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:39:13-51
+45            android:screenOrientation="portrait" />
+45-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:38:13-49
+46        <activity
+46-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:40:9-45:57
+47            android:name="com.tencent.liteav.demo.player.demo.FeedActivity"
+47-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:41:13-46
+48            android:configChanges="keyboardHidden|orientation|screenSize"
+48-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:42:13-74
+49            android:launchMode="singleTask"
+49-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:43:13-44
+50            android:screenOrientation="portrait"
+50-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:44:13-49
+51            android:windowSoftInputMode="stateHidden" />
+51-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:45:13-54
+52
+53        <receiver android:name="com.tencent.liteav.demo.player.expand.webdata.reveiver.WebDataReceiver" >
+53-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:47:9-51:20
+53-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:47:19-74
+54            <intent-filter>
+54-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:48:13-50:29
+55                <action android:name="com.tencent.liteav.action.WED_DATA" />
+55-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:49:17-77
+55-->C:\Users\wwwe\Desktop\tecentVideo\LiteAVSDK_Player_Android_10.8.0.13052\LiteAVDemo(Player)\superplayerdemo\src\main\AndroidManifest.xml:49:25-74
+56            </intent-filter>
+57        </receiver>
+58    </application>
+59
+60</manifest>
