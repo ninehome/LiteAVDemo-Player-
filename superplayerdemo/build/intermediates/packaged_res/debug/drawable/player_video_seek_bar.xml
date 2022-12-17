@@ -16,11 +16,12 @@
         </clip>
     </item>
 
+
     <item android:id="@android:id/progress" android:height="5dp">
         <clip>
             <shape>
                 <corners android:radius="5dp"/>
-                <solid android:color="#C9C7C7"/>   <!--  颜色-->
+                <solid android:color="#20B2AA"/>   <!--  颜色-->
             </shape>
         </clip>
     </item>

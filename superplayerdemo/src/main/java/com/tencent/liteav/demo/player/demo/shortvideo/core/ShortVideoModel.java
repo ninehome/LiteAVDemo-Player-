@@ -15,10 +15,10 @@ import java.util.List;
 public class ShortVideoModel {
     private static final String TAG = "ShortVideoDemo:ShortVideoModel";
     private volatile static ShortVideoModel mInstance;
-//    private static final int APP_ID = 1500005830;
-//    private static final String[] FILE_IDS = new String[]{"387702294394366256", "387702294394228858",
-//            "387702294394228636", "387702294394228527", "387702294167066523",
-//            "387702294167066515", "387702294168748446", "387702294394227941"};
+    private static final int APP_ID = 1500005830;
+    private static final String[] FILE_IDS = new String[]{"387702294394361", "387702294394228858",
+            "387702294394228636", "387702294394228527", "387702294167066523",
+            "387702294167066515", "387702294168748446", "387702294394227941"};
 
 
     SuperVodListLoader mListLoader;
@@ -48,21 +48,20 @@ public class ShortVideoModel {
     }
 
     public void loadDefaultVideo() {
-//        mSourceList.clear();
+        mSourceList.clear();
         VideoModel videoModel;
 
-        loadDashData();
 
-//        if (ConfigBean.sIsUseDash) {
-//            loadDashData();
-//        } else {
-//            for (int i = 0; i < FILE_IDS.length; i++) {
-//                videoModel = new VideoModel();
-//                videoModel.appid = APP_ID;
-//                videoModel.fileid = FILE_IDS[i];
-//                mSourceList.add(videoModel);
-//            }
-//        }
+        if (ConfigBean.sIsUseDash) {
+            loadDashData();
+        } else {
+            for (int i = 0; i < FILE_IDS.length; i++) {
+                videoModel = new VideoModel();
+                videoModel.appid = APP_ID;
+                videoModel.fileid = FILE_IDS[i];
+                mSourceList.add(videoModel);
+            }
+        }
     }
 
 
@@ -116,28 +115,28 @@ public class ShortVideoModel {
 
     public void getVideoByFileId() {
         mOnDataLoadFullListener.onLoadedSuccess(mSourceList);
-//        if (ConfigBean.sIsUseDash) {
-//
-//            // 模拟网络耗时
-//            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-//                @Override
-//                public void run() {
-//                    mOnDataLoadFullListener.onLoadedSuccess(mSourceList);
-//                }
-//            },1000);
-//        } else {
-//            mListLoader.getVideoListInfo(mSourceList, false, new SuperVodListLoader.OnVodListLoadListener() {
-//                @Override
-//                public void onSuccess(VideoListModel videoListModel) {
-//                    mOnDataLoadFullListener.onLoadedSuccess(videoListModel.videoModelList);
-//                }
-//
-//                @Override
-//                public void onFail(int errCode) {
-//                    mOnDataLoadFullListener.onLoadedFailed(errCode);
-//                }
-//            });
-//        }
+        if (ConfigBean.sIsUseDash) {
+
+            // 模拟网络耗时
+            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mOnDataLoadFullListener.onLoadedSuccess(mSourceList);
+                }
+            },1000);
+        } else {
+            mListLoader.getVideoListInfo(mSourceList, false, new SuperVodListLoader.OnVodListLoadListener() {
+                @Override
+                public void onSuccess(VideoListModel videoListModel) {
+                    mOnDataLoadFullListener.onLoadedSuccess(videoListModel.videoModelList);
+                }
+
+                @Override
+                public void onFail(int errCode) {
+                    mOnDataLoadFullListener.onLoadedFailed(errCode);
+                }
+            });
+        }
     }
 
     public void setOnDataLoadFullListener(IOnDataLoadFullListener listener) {

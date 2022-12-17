@@ -151,7 +151,7 @@ public class FeedVodListLoader {
      * @param loadDataCallBack
      */
     public void loadListData(int page, final LoadDataCallBack loadDataCallBack) {
-        int random = getRandomNumber(1, 5);
+        int random = getRandomNumber(5, 8);
         List<VideoModel> videoModelList = page == 0 ? loadDefaultVodList() : loadDefaultVodList().subList(0, random);
         final int size = videoModelList.size();
         if (ConfigBean.sIsUseDash) {

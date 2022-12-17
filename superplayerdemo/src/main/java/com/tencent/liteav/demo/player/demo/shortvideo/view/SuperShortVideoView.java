@@ -49,6 +49,7 @@ public class SuperShortVideoView extends RelativeLayout {
         init(context);
     }
 
+
     public SuperShortVideoView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);

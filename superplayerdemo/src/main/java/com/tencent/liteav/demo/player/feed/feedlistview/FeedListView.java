@@ -8,6 +8,7 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.RecyclerView;
@@ -65,6 +66,7 @@ public class FeedListView extends FrameLayout implements FeedListItemView.FeedLi
         refreshLayout.setEnableAutoLoadMore(false);
         refreshLayout.setEnableOverScrollBounce(false);//是否启用越界回弹
         recyclerView = new RecyclerView(getContext());
+//        recyclerView.setLayoutManager(new GridLayoutManager(getContext(),2));
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setHasFixedSize(true);
         recyclerView.setItemViewCacheSize(5);

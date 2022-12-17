@@ -295,6 +295,9 @@ public class FullScreenPlayer extends AbsPlayer implements View.OnClickListener,
         mSeekBarProgress.setProgress(0);
         mSeekBarProgress.setOnPointClickListener(this);
         mSeekBarProgress.setOnSeekBarChangeListener(this);
+
+
+
         mTvQuality = (TextView) findViewById(R.id.superplayer_tv_quality);
         mTvBackToLive = (TextView) findViewById(R.id.superplayer_tv_back_to_live);
         mPbLiveLoading = (ProgressBar) findViewById(R.id.superplayer_pb_live);

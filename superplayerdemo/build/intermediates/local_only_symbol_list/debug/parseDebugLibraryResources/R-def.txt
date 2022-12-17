@@ -161,10 +161,6 @@ id logo
 id play_start
 id playerHeaderView
 id recycler_view_short_video_list
-id rl_mask_four
-id rl_mask_one
-id rl_mask_three
-id rl_mask_two
 id rl_toolBar
 id rl_toolBar_play
 id roomid
@@ -229,15 +225,7 @@ id title_tv
 id tv_buffering_max_time
 id tv_cache_folder
 id tv_connect_over_time
-id tv_mask_four_i_know
-id tv_mask_four_text
-id tv_mask_one_i_know
-id tv_mask_three_i_know
-id tv_mask_two_i_know
-id tv_mask_two_text
 id tv_max_cache
-id tv_musk_one_text
-id tv_musk_three_text
 id tv_play_reconnect_interval
 id tv_play_reconnect_time
 id tv_preferred_resolution
@@ -267,6 +255,7 @@ layout player_activity_video
 layout player_fragment_short_video_list
 layout player_fragment_short_video_play
 layout player_item_base_view
+layout player_item_base_view2
 layout player_item_short_video_list
 layout player_item_short_video_play
 layout player_item_video
@@ -275,6 +264,7 @@ layout player_shortvideo_item
 layout super_player_drop_down_layout
 layout super_player_spinner_layout
 layout super_short_video_view
+layout super_short_video_view2
 layout superplayer_activity_qrcode
 layout superplayer_activity_supervod_player
 layout superplayer_activity_vod
